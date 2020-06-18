@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>saif creations</title>
+        <link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            //mobile section starts
+            $(function(){
+                $("#p1").click(function() {
+                $("#p1d").dialog({
+                    title:"REDMIK20",
+                    width:430,
+                    height:600,
+                    modal:true,
+                    buttons:{
+                        close:
+                            function(){
+                            $(this).dialog('back');
+                        }
+                        
+                    }
+                });//here is going to write logic to popup operation
+            });
+        }) ;
+    
+        $(function(){
+            $("#p2").click(function() {
+            $("#p2d").dialog({
+                title:"REDMI8A",
+                width:430,
+                height:600,
+                modal:true,
+                buttons:{
+                    close:
+                        function(){
+                        $(this).dialog('back');
+                    }
+                    
+                }
+            });//here is going to write logic to popup operation
+        });
+    }) ;
+
+    $(function(){
+        $("#p3").click(function() {
+        $("#p3d").dialog({
+            title:"REDMI8PRO",
+            width:430,
+            height:600,
+            modal:true,
+            buttons:{
+                close:
+                    function(){
+                    $(this).dialog('back');
+                }
+                
+            }
+        });//here is going to write logic to popup operation
+    });
+}); //mobile section ends
+
+
+//Earphone section
+$(function(){
+    $("#pe1").click(function() {
+    $("#pe1d").dialog({
+        title:"BOAT",
+        width:430,
+        height:600,
+        modal:true,
+        buttons:{
+            close:
+                function(){
+                $(this).dialog('back');
+            }
+            
+        }
+    });//here is going to write logic to popup operation
+});
+}) ;
+
+$(function(){
+$("#pe2").click(function() {
+$("#pe2d").dialog({
+    title:"SAMSUNG",
+    width:430,
+    height:600,
+    modal:true,
+    buttons:{
+        close:
+            function(){
+            $(this).dialog('back');
+        }
+        
+    }
+});//here is going to write logic to popup operation
+});
+}) ;
+//Earphone section ends
+//charger section starts
+$(function(){
+    $("#pc1").click(function() {
+    $("#pc1d").dialog({
+        title:"REDMI",
+        width:430,
+        height:600,
+        modal:true,
+        buttons:{
+            close:
+                function(){
+                $(this).dialog('back');
+            }
+            
+        }
+    });//here is going to write logic to popup operation
+});
+}) ;
+
+$(function(){
+$("#pc2").click(function() {
+$("#pc2d").dialog({
+    title:"Apple",
+    width:430,
+    height:600,
+    modal:true,
+    buttons:{
+        close:
+            function(){
+            $(this).dialog('back');
+        }
+        
+    }
+});//here is going to write logic to popup operation
+});
+}) ;
+//charger section ends
+</script>
+        <style>
+            .a{
+                background-image: url("ch.jpg");
+                background-color: black;
+                height: 200px;
+                width: 100%;
+            }
+            .b
+            {background-color: black;
+                height:70px;
+                width: 100%;
+                border-style: solid;
+            }
+            .c{
+                color: white;
+                font-style: initial;
+                text-align: center;
+                font-size: 30px;
+            }
+            .column {
+                float: left;
+                width: 30.33%;
+                padding: 2px;
+              }
+              
+              /* Clear floats after image containers */
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              .row {
+                display: flex;
+              }
+              
+              .column {
+                flex: 30.33%;
+                padding: 2px;
+              }
+              .ff
+              {
+                  border-radius: 20px;
+                
+              }
+              .fff
+              {
+                  border-radius: 20px;
+              }
+              .ffff
+              {
+                  border-radius: 20px;
+              }
+              .price{
+                  text-align-last: right;
+                  color: black;
+                  font-size: 30px;
+              }
+              .foot
+              {
+                  background-color: black;                
+              }
+            
+              .ft2{
+                  
+                  color: white;
+                 font-size: 20px;  
+                text-align: center;            }
+            
+        </style>
+
+    </head>
+
+ <body>
+<!--mobile section starts-->
+    <div class="a">
+        <div class="b">
+            <p class="c">Krtee</p>  
+        </div>   
+     </div>
+     <div class="d">
+         <h1>Mobile Phones</h1>
+         <div class="row">
+             <figure>
+            <div class="column">
+              <img class="ff" id="p1" src="p1.png" alt="Redmik2o" style="width:300px;height:200px;">
+              <figcaption>RedmiK20</figcaption>
+            </div>
+        <p class="price">₹3489</p>
+        </figure>
+        <figure>
+            <div class="column">
+              <img class="fff" id="p2" src="p2.png" alt="Redmi8A" style="width:300px;height:200px;">
+              <figcaption>Redmi8A</figcaption>
+            </div>
+            <p class="price">₹2499</p>
+        </figure>
+        <figure>
+            <div class="column">
+              <img class="ffff" id="p3" src="p3.png" alt="redmi8Pro" style="width:300px;height:200px;">
+              <figcaption>Redmi8Pro</figcaption>
+            </div>
+            <p class="price">₹4578</p>
+        </figure>
+        
+          </div> 
+     </div>
+     <div id="p1d" style="display: none;">
+        <h1>Highlights:</h1>
+        <ol>
+       <li>6 GB RAM | 128 GB ROM </li>
+       <li>16.23 cm (6.39 inch) Full HD+ Display</li>
+       <li>48MP + 13MP + 8MP | 20MP Front Camera</li>
+       <li>4000 mAh Li-polymer Battery</li>
+       <li>Qualcomm Snapdragon 730 Processor</li>
+   </ol>
+   <h1>Description:</h1>
+   <p>The K20 opens up new possibilities. The 48 MP AI Triple camera setup lets you see things from a different perspective altogether. Be it ultra-wides or telephoto shots, the K20 produces flawless images. Powered by the Qualcomm Snapdragon 730 and a 4000 mAh battery, this device finds a perfect balance between performance and power efficiency</p>
+ <button type="button">Confirm Order</button>   
+</div>
+<div id="p2d" style="display: none;">
+   <h1>Highlights</h1>
+   <ol>
+       <li>13+2MP dual rear AI camera with PDAF | 8MP front camera </li>
+       <li>15.7988 centimeters (6.22-inch) HD+ Dot notch display with 1520 x 720 pixels resolution and 19:9 aspect ratio | 2.5D curved glass </li>
+       <li>Memory, Storage & SIM: 3GB | 32GB internal memory expandable up to 512GB with dedicated memory card slot | Dual SIM (nano+nano) dual-standby (4G+4G)</li>
+       <li>
+           1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase </li>
+       <li>Box also includes: Power adapter, USB cable, SIM eject tool, warranty card and user guide </li>
+   </ol>
+   <h1>Description</h1>
+   <p> 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase .Dual SIM, Music Player, Video Player, Vibration motor, Proximity sensor, Ambient light sensor, Accelerometer, Electronic Compass</p>
+   <button type="button">Confirm Order</button>
+</div>
+<div id="p3d" style="display: none;">
+   <h1>Highlights</h1>
+   <ol>
+       <li>RAM:3 GB,
+           Processor:Qualcomm Snapdragon 710,
+           Rear Camera :16 MP + 8 MP + 5 MP + 2 MP,
+           Front Camera:13 MP,
+           Battery:3500 mAh, Display:6.3 inches </li>
+       <li> 	4G: Available (supports Indian bands),3G: Available, 2G: Available </li>
+       <li >Octa core (2.2 GHz, Dual core, Kryo 360 + 1.7 GHz, Hexa Core, Kryo 360) </li>
+       <li>Digital Zoom, Auto Flash, Face detection, Touch to focus </li>
+   
+   </ol>
+   <h1>Description</h1>
+   <p>Xiaomi Redmi 8 Pro comes with an affordable price in spite of bringing too many features. It offers good performance overall with a decent battery backup that can support active functioning for more than a day. The cameras are very good for the price. However, the storage capacity falls on the average side.</p>
+   <button type="button">Confirm Order</button>
+</div>
+     <!--mobile section ends-->
+
+<br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
+<br>
+     <!--Earphone section starts-->
+     <div class="earphones">
+         <h1> EARPHONES</h1>
+         <div class="row">
+            <figure>
+           <div class="column">
+             <img class="ff" id="pe1" src="pe1.png"  style="width:300px;height:200px;">
+             <figcaption>Boat</figcaption>
+           </div>
+       <p class="price">₹489</p>
+       </figure>
+       <figure>
+           <div class="column">
+             <img class="fff" id="pe2" src="pe2.png"  style="width:300px;height:200px;">
+              <figcaption>Samsung</figcaption>
+           </div>
+           <p class="price">₹249</p>
+       </figure>
+
+     </div>
+    </div>
+     <div id="pe1d" style="display: none;">
+         <h1>Description</h1>
+         <p>Be Bold With The Original Black Pods. Experience An Unparalleled Listening Experience. Based on our own pod concept, featuring Bluetooth 5.0 for lightning fast connectivity. Studio Quality Sound. Free Worldwide Shipping. 5+ hrs Wireless Listening. Upgraded Bass & Audio. Highlights: Free Shipping Available, Order Tracking Option Available.</p>
+         <button type="button">Confirm Order</button>
+     </div>
+     <div id="pe2d" style="display: none;">
+         <h1>Description</h1>
+         <p>
+            Powerful,bass-driven stereo-sound
+            Perfect fit in the ear canal and good attenuation of ambient  noise due to  ear-fit rings in different sizes
+            Ideal for use with all MP3,CO,DVD,MD players and portable game systems with headphone sockets
+            Flat tangle-free cable
+            Heavy Bass Impact
+            Hands free In-lane Microphone
+            Clear human voice
+            Noise isolation with precise bass
+            Engineered for quality stereo sound
+            Excellent attenuation of ambient noise
+        </p>
+         <button type="button">Confirm Order</button>
+     </div>
+     <br>
+     <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
+          <br>
+     <!--Earphone section ends-->
+
+
+     <!--Charger section starts-->
+     <div class="chargers">
+     
+         <h1> Chargers</h1>
+         <div class="row">
+            <figure>
+           <div class="column">
+             <img class="ff" id="pc1" src="pc1.png"  style="width:300px;height:200px;">
+             <figcaption>Redmi</figcaption>
+           </div>
+       <p class="price">₹1489</p>
+       </figure>
+       <figure>
+           <div class="column">
+             <img class="fff" id="pc2" src="pc2.png"  style="width:300px;height:200px;">
+              <figcaption>Apple</figcaption>
+           </div>
+           <p class="price">₹2249</p>
+       </figure>
+
+     </div>
+    </div>
+     <div id="pc1d" style="display: none;">
+         <h1>Description</h1>
+         <p>Charger is suitable and appropriate for use with different cables ranging from Micro USB, lightning cable, type-C cables to reliably charge any of your devices. The wall charger is compatible with all mobile phones including Samsung, Apple iPhones, iPads, One Plus, Motorola, Sony, HTC, Nexus, LG, Microsoft, Nokia, OPPO, GIONEE, Blackberry, Lenovo, Honor, Asus, Huawei, VIVO,Xiaomi,Google,Letv,LeEco,Panasonic,Micromax,Coolpad,XOLO,Lava,Celkon, Karbonn, ZTE, Intex, Iball, Swipe,Toshiba, Alcatel, Meizu, Yu.</p>
+         <button type="button">Confirm Order</button>
+     </div>
+     <div id="pc2d" style="display: none;">
+         <h1>Description</h1>
+         <p>
+            The Apple 18W USB‑C Power Adapter offers fast, efficient charging at home, in the office, or on the go. While the power adapter is compatible with any USB‑C-enabled device, Apple recommends pairing it with the 11-inch iPad Pro and 12.9-inch iPad Pro (3rd generation) for optimal charging performance. You can also pair it with iPhone 8 or later to take advantage of the fast-charging feature.
+            </p>
+         <button type="button">Confirm Order</button>
+     </div>
+     <!--Charger section ends-->
+     <!--Footer section-->
+     <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
+   <br>
+    <div class="foot"> 
+         <p class="ft2"><a href="https://github.com/sakib1913"><i class="fa fa-github"></i></a>Github:SAKIB</p>
+
+    </div>
+
+ </body>   
+</html>

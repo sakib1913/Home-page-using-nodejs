@@ -1,0 +1,98 @@
+.a{
+background-color: black;
+height: 100;
+width: 70;}
+.b{
+    width: 700;
+    height: 700;
+}
+.c{
+    background-color: black;
+    height: 100;
+    width: 100;
+}
+.x
+{color: white;}
+
+$(function(){
+    $("#p2").click(function() {
+    $("#p2d").dialog({
+        title:"REDMI8A",
+        width:430,
+        height:600,
+        modal:true,
+        buttons:{
+            close:
+                function(){
+                $(this).dialog('back');
+            }
+            
+        }
+    });//here is going to write logic to popup operation
+});
+}) 
+
+$(function(){
+$("#p3").click(function() {
+$("#p3d").dialog({
+    title:"REDMI8PRO",
+    width:430,
+    height:600,
+    modal:true,
+    buttons:{
+        close:
+            function(){
+            $(this).dialog('back');
+        }
+        
+    }
+});//here is going to write logic to popup operation
+});
+}) 
+
+
+
+
+
+<div id="p2d" style="display: none;">
+    <h1>Highlights</h1>
+    <ol>
+        <li>13+2MP dual rear AI camera with PDAF | 8MP front camera </li>
+        <li>15.7988 centimeters (6.22-inch) HD+ Dot notch display with 1520 x 720 pixels resolution and 19:9 aspect ratio | 2.5D curved glass </li>
+        <li>Memory, Storage & SIM: 3GB | 32GB internal memory expandable up to 512GB with dedicated memory card slot | Dual SIM (nano+nano) dual-standby (4G+4G)</li>
+        <li>
+            1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase </li>
+        <li>Box also includes: Power adapter, USB cable, SIM eject tool, warranty card and user guide </li>
+    </ol>
+    <h1>Description</h1>
+    <p> 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase .Dual SIM, Music Player, Video Player, Vibration motor, Proximity sensor, Ambient light sensor, Accelerometer, Electronic Compass</p>
+    <button type="button">Confirm Order</button>
+</div>
+<div id="p3d" style="display: none;">
+    <h1>Highlights</h1>
+    <ol>
+        <li>RAM:3 GB,
+            Processor:Qualcomm Snapdragon 710,
+            Rear Camera :16 MP + 8 MP + 5 MP + 2 MP,
+            Front Camera:13 MP,
+            Battery:3500 mAh, Display:6.3 inches </li>
+        <li> 	4G: Available (supports Indian bands),3G: Available, 2G: Available </li>
+        <li >Octa core (2.2 GHz, Dual core, Kryo 360 + 1.7 GHz, Hexa Core, Kryo 360) </li>
+        <li>Digital Zoom, Auto Flash, Face detection, Touch to focus </li>
+    
+    </ol>
+    <h1>Description</h1>
+    <p>Xiaomi Redmi 8 Pro comes with an affordable price in spite of bringing too many features. It offers good performance overall with a decent battery backup that can support active functioning for more than a day. The cameras are very good for the price. However, the storage capacity falls on the average side.</p>
+    <button type="button">Confirm Order</button>
+</div>
+
+
+
+
+
+
+.price{
+    text-align-last: right;
+    color: black;
+    font-size: 30px;
+}
